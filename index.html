@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PH-Tube</title>
+    <!-- daisy ui -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style>
+        .active{
+            background-color:#FF1F3D;
+            color: white;
+            border-radius: 12px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="w-11/12 mx-auto ">
+
+        <header class="flex justify-between items-center py-8">
+            <div><img src="Logo.png" alt="logo"></div>
+            <div>
+                <button class="bg-[#25252520] py-3 px-5 rounded-lg">Sort By View</button>
+            </div>
+            <div>
+                <button class="font-medium text-lg bg-[#FF1F3D] text-white px-5 py-3 rounded-lg">Blog</button>
+            </div>
+        </header>
+        <hr class="text-[#17171720]">
+        <!-- category part start here -->
+
+        <section>
+            <div id="category-container" class="justify-center flex gap-4 my-4">
+                <button id="btn-0" class="bg-[#25252520] py-2 px-5 rounded-lg text-white" onclick="loadVideo()">All</button>
+
+            </div>
+        </section>
+
+        <!-- video section -->
+        <section>
+            <div id="video-container" class="grid grid-cols-4 gap-4">
+
+
+
+
+
+
+
+            </div>
+
+        </section>
+
+        <section id="no-video" class="mx-auto pt-20">
+        
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    <script src="scripts/script.js"></script>
+</body>
+
+</html>
